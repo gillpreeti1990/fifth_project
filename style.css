@@ -1,0 +1,224 @@
+.collapsible {
+  background-color: rgba(119, 119, 119, 0.253);
+  color: black;
+
+  font-weight: 600;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 24px;
+  margin: 4px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.content {
+  padding: 0 14px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+#mynav {
+  padding-top: 4px;
+  margin-top: 10px;
+}
+
+#login {
+  background-color: #ffffff;
+  color: #fc00bd;
+  border: solid 1px #fc00bd;
+  border-radius: 8px;
+  padding: 4px 10 4px 10px;
+}
+#register {
+  background-color: #fc00bd;
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px 10 4px 10px;
+}
+.heading {
+  text-align: center;
+  background-color: darkcyan;
+  height: 24rem;
+  width: 100%;
+  margin-top: -10px;
+}
+.heading h1 {
+  padding: 10rem;
+  font-weight: bold;
+  color: white;
+}
+.article {
+  height: 20rem;
+  border-bottom: 1px solid black;
+}
+.article h2 {
+  font-weight: bold;
+  padding-left: 2rem;
+}
+.nested-article {
+  padding-top: 2%;
+  border-bottom: 2px solid black;
+  border-bottom-width: 2px;
+  width: fit-content;
+  font-weight: 550;
+  /* margin-left: 2rem; */
+  /* margin: auto; */
+  font-size: 20px;
+  /* line-height: 48px; */
+}
+.sub-article {
+  display: flex;
+  justify-content: space-between;
+}
+.faq h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.sub-faq {
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .collapsible {
+    background-color: rgba(119, 119, 119, 0.253);
+    color: black;
+
+    font-weight: 600;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    margin: 4px;
+  }
+  .nested-article {
+    font-size: 14px;
+  }
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .heading {
+    text-align: center;
+    background-color: darkcyan;
+    height: 24rem;
+    width: 100%;
+    margin-top: -10px;
+  }
+  .heading h1 {
+    padding: 10rem;
+    font-weight: bold;
+    color: white;
+  }
+  .collapsible {
+    background-color: rgba(119, 119, 119, 0.253);
+    color: black;
+
+    font-weight: 600;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    margin: 4px;
+  }
+  .nested-article {
+    font-size: 10px;
+  }
+  svg {
+    height: 14px;
+    width: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .heading {
+    text-align: center;
+    background-color: darkcyan;
+    height: 34rem;
+    width: 100%;
+    margin-top: -10px;
+  }
+  .heading h1 {
+    padding: 10rem;
+    font-weight: bold;
+    color: white;
+  }
+  .collapsible {
+    background-color: rgba(119, 119, 119, 0.253);
+    color: black;
+
+    font-weight: 600;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    margin: 4px;
+  }
+  .nested-article {
+    font-size: 10px;
+  }
+  svg {
+    height: 10px;
+    width: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .heading {
+    text-align: center;
+    background-color: darkcyan;
+    height: 30rem;
+    width: 100%;
+    margin-top: -10px;
+  }
+  .heading h1 {
+    padding: 8rem;
+    font-weight: bold;
+    color: white;
+  }
+  .collapsible {
+    background-color: rgba(119, 119, 119, 0.253);
+    color: black;
+
+    font-weight: 600;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 10px;
+    margin: 4px;
+  }
+  .nested-article {
+    font-size: 8px;
+    padding: none;
+  }
+  svg {
+    height: 8px;
+    width: 8px;
+  }
+}
